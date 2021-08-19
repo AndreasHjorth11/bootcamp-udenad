@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	navn.forEach(navn => {
 		let ListItem = document.createElement('li');
 		document.querySelector('#liste').appendChild(ListItem);
-		ListItem.innerHTML = navn;
+		ListItem.textContent = navn;
 		ListItem.style.listStyle = 'none';
 		console.log(navn)
 	});
