@@ -28,7 +28,7 @@ function checkMinMaxValue(direction)
 		}
 	}
 
-	if (direction === "decrease")
+	else if (direction === "decrease")
 	{
 		if (number > min)
 		{
