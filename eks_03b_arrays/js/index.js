@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	
 	function myFunction(array)
 	{
-		navn.forEach(navn => {
+		array.forEach(navn => {
 			let ListItem = document.createElement('li');
 			document.querySelector('#liste').appendChild(ListItem);
 			ListItem.textContent = navn;
